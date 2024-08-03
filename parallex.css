@@ -1,0 +1,76 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.light{
+    background-color: #ccc;
+}
+
+.dark{
+    background-color: #FCF5F5;
+}
+
+.image{
+    background-attachment: fixed;
+    background-size: cover;
+}
+.first-image{
+    background-image: url(https://wallpaperaccess.com/full/83104.jpg);
+    min-height: 600px;
+    opacity: 0.9;
+}
+
+.second-image{
+    background-image: url(https://e0.pxfuel.com/wallpapers/135/111/desktop-wallpaper-night-city-architecture-city-lights-laptop-full.jpg);
+    min-height: 600px;
+    opacity: 0.9;
+}
+
+.third-image{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/737/954/375/building-city-cityscape-monochrome-wallpaper-preview.jpg);
+    min-height: 600px;
+    opacity: 0.9;
+}
+
+.fourth-image{
+    background-image: url(https://wallpapercave.com/wp/wp4087427.jpg);
+    min-height: 600px;
+    opacity: 0.9;
+}
+
+.position{
+    position: relative;
+    top: 250px;
+    right: 50%;
+    bottom: 50%;
+    left: 45%;
+    color: white;
+    background-color: black;
+    max-width: 200px;
+    opacity: 0.8;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+#pop{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#popup{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
